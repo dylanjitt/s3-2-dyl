@@ -1,9 +1,9 @@
 name: Desplegando pagina estatica en S3
 on:
- push:
-   branches:
-     - main  # Change to your default branch
-
+  # push:
+  #   branches:
+  #     - main
+  workflow_dispatch:
 
 jobs:
  deploy:
